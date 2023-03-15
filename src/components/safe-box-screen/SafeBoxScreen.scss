@@ -1,0 +1,39 @@
+@import './../../scss/variables';
+
+.sb {
+  &--screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: $screen-back-light-on;
+
+    &--state,
+    &--lock {
+      color: $screen-text;
+      margin: 0;
+      text-align: left;
+    }
+
+    &--lock {
+      font-size: $screen-lock-font-size;
+    }
+
+    &--state {
+      text-align: right;
+      font-weight: 500;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      direction: ltr;
+      font-size: $screen-state-font-size;
+    }
+
+    &--idle {
+      background-color: $screen-back-light-off;
+    }
+  }
+}

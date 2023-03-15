@@ -1,0 +1,30 @@
+@import './../../scss/variables';
+
+.sb-- {
+  &wrapper {
+    background: $panel-body;
+    width: 400px;
+    margin: 0 auto;
+    padding: 35px 40px;
+    position: relative;
+    border-radius: $panel-border-radius;
+
+    &--keyboard {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    &--serial-number {
+      color: $screen-text;
+      font-weight: 500;
+      margin: 0;
+      position: absolute;
+      bottom: 8px;
+      right: 12px;
+      min-width: 33%;
+      user-select: none;
+    }
+  }
+}

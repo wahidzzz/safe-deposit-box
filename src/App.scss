@@ -1,0 +1,9 @@
+@import './../src/scss/variables.scss';
+
+.App {
+	height: 100vh;
+	padding: 10vh 0;
+	box-sizing: border-box;
+	background-color: $background;
+
+}
