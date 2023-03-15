@@ -22,3 +22,18 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+## Project requirements
+Your task is to create a web simulation of a safe deposit box usually found in hotel rooms. They
+are designed to keep small valuables and documents protected while guests are out of the room.
+User interface is made simple to avoid the need for issuing mechanical keys or pin codes by
+hotel’s staff. What follows are User’s manual and then the control panel of the safe deposit box.
+
+### Locking:
+    1. Before closing doors enter any 6 digit passcode. Remember the passcode!
+    2. Close the door and press lock button [L] to lock the safe.
+### Unlocking:
+    1. Enter your 6 digit passcode**
+    2. Please leave the door open before checking out from hotel
+    ** If you can’t remember passcode, please call reception to help you for a small fee of 5€
+    
+    ![Task Preview](public/task-preview-image.png?raw=true "Task Preview")

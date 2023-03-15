@@ -93,6 +93,10 @@ const SafeBoxWrapper = () => {
           <SafeBoxKey key={index} padKey={item} disabled={loading} keyAction={addKey} />
         ))}
       </div>
+      {/* Todo Setup a ToolTip Feature for Forget Passwor */}
+      {/* <div class="sb--wrapper--hover-text">Forgot Password?
+        <span class="sb--wrapper--tooltip-text">Please call reception to help you for a small fee of 5€</span>
+      </div> */}
       <p className="sb--wrapper--serial-number">S/N: {sn}</p>
     </div>
   );
